@@ -68,7 +68,7 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <div className="container min-h-[90vh] md:min-h-[85vh] bg-emerald-100 w-[95vw] mx-auto mt-6 rounded-2xl">
+      <div className="container min-h-[85vh] md:min-h-[85vh] bg-emerald-100 w-[95vw] mx-auto mt-6 rounded-2xl">
         <div className="AddTodo pt-3 mb-4 md:mb-0 gap-3 flex flex-col md:flex-row md:justify-center items-center md:py-3 md:gap-5 md:pt-5">
           <h2 className="font-bold w-fit">
             {editId ? "Edit your Todo" : "Add a Todo"}
